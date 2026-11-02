@@ -11,8 +11,11 @@ for i in range(3):
         elif gissning != tal:
             print("Fel min vän, du får testa igen om du vill..")
         break
-    if i==2:
+    if gissning==tal:
+        break
+    elif i==2:
         print("Nah sluta")
+        break
         
     
     
